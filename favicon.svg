@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Pakistan's Female Style Icons">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a06ad8" />
+      <stop offset="0.5" stop-color="#da789b" />
+      <stop offset="1" stop-color="#e7a06d" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#fff7f1" />
+  <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#g)" opacity="0.18" />
+  <path
+    d="M64 28c10 0 18 8.6 18 19.2 0 12-8.6 21.8-18 21.8s-18-9.8-18-21.8C46 36.6 54 28 64 28Z"
+    fill="#32243b"
+    opacity="0.9"
+  />
+  <path
+    d="M30 112c2-33 16-52 34-58 18 6 32 25 34 58H30Z"
+    fill="#32243b"
+    opacity="0.9"
+  />
+</svg>
+
