@@ -1,0 +1,13 @@
+<svg width="760" height="980" viewBox="0 0 760 980" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Full standing placeholder</title>
+  <desc id="desc">A static illustrated placeholder image.</desc>
+  <rect width="760" height="980" fill="#FFF9ED"/>
+  <circle cx="185" cy="150" r="230" fill="#FFE1EB"/>
+  <circle cx="610" cy="790" r="280" fill="#EFE1FF"/>
+  <ellipse cx="380" cy="185" rx="72" ry="88" fill="#DA789B" fill-opacity="0.54"/>
+  <path d="M286 310C310 265 342 240 380 240C418 240 450 265 474 310L560 980H200L286 310Z" fill="#A06AD8" fill-opacity="0.45"/>
+  <path d="M286 320L205 630L248 645L320 390L286 320Z" fill="#E7A06D" fill-opacity="0.45"/>
+  <path d="M474 320L555 630L512 645L440 390L474 320Z" fill="#E7A06D" fill-opacity="0.45"/>
+  <path d="M325 980L360 580H400L435 980H325Z" fill="#32243B" fill-opacity="0.14"/>
+  <path d="M287 210C300 120 348 82 405 103C466 126 484 185 474 260C450 215 418 194 380 194C342 194 311 200 287 210Z" fill="#32243B" fill-opacity="0.18"/>
+</svg>

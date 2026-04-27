@@ -1,0 +1,11 @@
+<svg width="760" height="980" viewBox="0 0 760 980" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Side pose placeholder</title>
+  <desc id="desc">A static illustrated placeholder image.</desc>
+  <rect width="760" height="980" fill="#FFF7F1"/>
+  <circle cx="160" cy="760" r="260" fill="#EFE1FF"/>
+  <circle cx="650" cy="190" r="230" fill="#FFE1EB"/>
+  <path d="M305 980C320 765 360 620 440 600C505 670 540 790 555 980H305Z" fill="#DA789B" fill-opacity="0.48"/>
+  <ellipse cx="424" cy="405" rx="96" ry="132" transform="rotate(-8 424 405)" fill="#E7A06D" fill-opacity="0.56"/>
+  <path d="M315 450C315 305 375 215 465 230C528 240 560 310 555 400C520 342 480 325 430 340C375 358 338 395 315 450Z" fill="#32243B" fill-opacity="0.18"/>
+  <path d="M390 980C410 750 430 660 472 630C520 710 540 825 550 980H390Z" fill="#32243B" fill-opacity="0.15"/>
+</svg>
