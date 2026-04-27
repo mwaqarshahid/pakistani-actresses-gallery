@@ -22,6 +22,14 @@ const buildActressImagePath = (actress, pose, extension) => {
   return `./assets/images/actresses/${actress.slug}/${pose.key}.${extension}`;
 };
 
+const buildActressExplicitImagePath = (actress, pose) => {
+  const fileName = actress?.images?.[pose.key];
+  if (!fileName) {
+    return null;
+  }
+  return `./assets/images/actresses/${actress.slug}/${fileName}`;
+};
+
 const createGalleryFrame = (actress, pose) => {
   const frame = document.createElement("div");
   frame.className = "gallery-frame gallery-frame--loading";
@@ -73,7 +81,13 @@ const createGalleryFrame = (actress, pose) => {
   frame.appendChild(loader);
   frame.appendChild(image);
 
-  image.src = buildActressImagePath(actress, pose, ACTRESS_IMAGE_EXTENSIONS[0]);
+  const explicit = buildActressExplicitImagePath(actress, pose);
+  if (explicit) {
+    attempt = -1;
+    image.src = explicit;
+  } else {
+    image.src = buildActressImagePath(actress, pose, ACTRESS_IMAGE_EXTENSIONS[0]);
+  }
 
   if (image.complete && image.naturalWidth > 0) {
     finishLoading();
